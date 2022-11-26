@@ -17,11 +17,15 @@ h3 {
 h1 {
   font-size: 96px;
   text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
 }
 
 h2 {
-  font-size: 52px;
+  font-size: 48px;
   font-weight: bold;
+  font-family: 'Playfair Display', serif;
+
 }
 
 h3 {
@@ -32,6 +36,9 @@ h3 {
 p {
   font-size: 18px;
   line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500px;
+
 }
 
 .navigation-links {
