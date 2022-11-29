@@ -35,6 +35,23 @@ p {
   line-height: 30px;
 }
 
+@media (max-width: 960px) {
+  h1{
+    line-height: 2;
+    font-size: 42px;
+  }
+  h2{
+    font-size: 42px;
+  }
+  .hero{
+    padding: 80px 20px;
+  }
+  .project-description{
+    text-align: center;
+    padding: 0;
+  }
+}
+
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -55,7 +72,7 @@ p {
   font-size: 24px;
 }
 
-.btn-contact {
+.btn-main {
   background: var(--branding-color);
   border-radius: 4px;
   color: white;
@@ -65,9 +82,10 @@ p {
   transition: all 150ms ease-in-out;
 }
 
-.btn-contact:hover{
+.btn-main:hover{
   background-color: white;
-  color: var(--branding-color)
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
 }
 
 .btn-view-project{
@@ -89,20 +107,26 @@ p {
   padding: 120px 60px;
 }
 
-@media (max-width: 960px) {
-  h1{
-    line-height: 2;
-    font-size: 42px;
-  }
-  h2{
-    font-size: 42px;
-  }
-  .hero{
-    padding: 80px 20px;
-  }
-  .project-description{
-    text-align: center;
-    padding: 0;
-  }
+.about-me {
+  padding: 160px 20px;
+}
+
+.about-me h1{
+  font-size: 60px;
+  line-height: 65px;
+}
+
+.about-me h2 {
+  font-size: 16px;
+  font-family: var(--default-font-family);
+}
+
+.about-me-content{
+  margin: 25px;
+}
+
+.selfie{
+  border-radius: 10px;
+  max-width: 80%;
 }
 
