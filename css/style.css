@@ -46,6 +46,11 @@ p {
   .hero{
     padding: 80px 20px;
   }
+
+  .main-content{
+    text-align: center;
+    padding: 0;
+  }
   .project-description{
     text-align: center;
     padding: 0;
@@ -107,21 +112,21 @@ p {
   padding: 120px 60px;
 }
 
-.about-me {
+.content-container {
   padding: 160px 20px;
 }
 
-.about-me h1{
+.main-content h1{
   font-size: 60px;
   line-height: 65px;
 }
 
-.about-me h2 {
+.main-content h2 {
   font-size: 20px;
   font-family: var(--default-font-family);
 }
 
-.about-me-content{
+.main-content{
   margin: 25px;
 }
 
