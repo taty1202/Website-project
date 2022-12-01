@@ -100,30 +100,6 @@ color: var(--secondary-color);
 background-color: var(--branding-color);
 }
 
-@media (max-width: 960px) {
-  h1{
-    line-height: 2;
-    font-size: 42px;
-  }
-  h2{
-    font-size: 42px;
-  }
-
-  h3{
-    font-size: 25px;
-  }
-
-  .content-container, .main-content{
-    text-align: center;
-    padding: 0;
-  }
-.project-description{
-  padding: 0;
-  text-align: center;
-}
-
-}
-
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -215,4 +191,28 @@ background-color: var(--branding-color);
 
 .logo{
   max-width: 80px;
+}
+
+@media (max-width: 960px) {
+  h1{
+    line-height: 2;
+    font-size: 42px;
+  }
+  h2{
+    font-size: 42px;
+  }
+
+  h3{
+    font-size: 25px;
+  }
+
+  .content-container, .main-content{
+    text-align: center;
+    padding: 0;
+  }
+.project-description{
+  padding: 0;
+  text-align: center;
+}
+
 }
