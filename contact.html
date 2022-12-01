@@ -27,6 +27,8 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
+        <a href="/"><img src="images/logo.png" class="logo d-none d-md-block" alt="Tatyana's Logo" title="Homepage">
+          <img src="images/logo.png" class="logo d-block d-md-none" alt="Tatyana's Logo" title="Homepage"></a>
         <ul>
           <li>
             <a href="/" title="Homepage - Tatyana">Home</a>
@@ -46,6 +48,22 @@
     <div class="content-container container">
       <div class="main-content">
         <h1 class="mb-5">Let's get in touch!</h1>
+        <div class="row">
+          <div class="col-md-8">
+            <form action="https://formspree.io/f/mzbwlvqk" method="POST" class="border p-3 rounded mb-3">
+              <div class="mb-3">
+                <label class="form-label"> Your Email:</label>
+                <input type="email" name="_replyto" class="form-control" required="autofocus">
+              </div>
+              <div class="mb-3">
+                <label class="form-label"> Your Message: </label>
+                <textarea name="message" class="form-control" required="autofocus"></textarea>
+              </div>
+              <button type="submit" class="btn btn-main">Send</button>
+              </form>
+          
+        </div>
+        <div class="col-md-4">
        <h3>Email</h3>
        <p>
         <a href="mailto:taty1202@gmail.com" target="_blank" title="Email">taty1202@gmail.com</a>
@@ -60,11 +78,14 @@
        </p>
       </div>
       <footer>
-        <div class="social-links d-flex justify-content-center">
+        <div class="social-links d-flex justify-content-center mt-5">
     <a href="https://github.com/taty1202" target="_blank" title="Tatyana's Github"><i class="fa-brands fa-github"></i></a>
     <a href="https://www.instagram.com/tatyanaaraya_94/" target="_blank" title="Tatyana's Instagram"><i class="fa-brands fa-instagram"></i></a>
     <a href="https://www.linkedin.com/in/tatyana-a-2a7853128/" target="_blank" title="Tatyana's LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
         </div>
+      </div>
+      </div>
+    </div>
       </footer>
     </div>
   </body>
